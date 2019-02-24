@@ -1006,7 +1006,7 @@ var PACMAN = (function () {
 
     function check() {
         if(level>1)
-           window.location= 'http://bit.ly/GLUGHunt'; //Change the link to google forms here
+           window.location= 'https://bit.ly/2TjFTkg'; //Change the link to google forms here
     };
 
     function completedLevel() {

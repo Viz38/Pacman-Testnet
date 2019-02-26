@@ -1005,7 +1005,7 @@ var PACMAN = (function () {
     };
 
     function check() {
-        if(level>2)
+        if(level>1)
            window.location= 'https://bit.ly/2TjFTkg'; //Change the link to google forms here
     };
 

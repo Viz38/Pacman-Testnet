@@ -1,4 +1,4 @@
-//Change line 1017
+//Refer line 1009,1007 for treasure hunt changes
 
 var NONE        = 4,
     UP          = 3,
@@ -1004,10 +1004,11 @@ var PACMAN = (function () {
         }        
     };
 
-    function check() {
+   /* function check() {
         if(level>1)
            window.location= 'https://bit.ly/2TjFTkg'; //Change the link to google forms here
     };
+    */
 
     function completedLevel() {
         setState(WAITING);
@@ -1015,7 +1016,7 @@ var PACMAN = (function () {
         map.reset();
         user.newLevel();
         startLevel();
-        check();
+   //     check();
     };
 
     function keyPress(e) { 
